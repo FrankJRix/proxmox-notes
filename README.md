@@ -3,7 +3,7 @@ Snippets about Proxmox.
 
 ## Markdown reference
 
-[Here.]([https://www.example.com](https://www.markdownguide.org/cheat-sheet/))
+[Here.](https://www.markdownguide.org/cheat-sheet/)
 
 ## Copypaste
 
