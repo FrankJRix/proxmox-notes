@@ -11,8 +11,8 @@ Snippets about Proxmox.
 
 ## Administration
 ### update system:
-`apt update
-apt dist-upgrade`
+`apt update`
+`apt dist-upgrade`
 
 ## Media
 ### lxc bind mount:
