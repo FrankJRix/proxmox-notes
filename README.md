@@ -28,3 +28,11 @@ edit permissions to 777!
 #### if you want to be safe:
 
 TBA
+
+## Hardware
+### usb drive smart status:
+
+`man smartd`
+`man smartd.conf`
+
+`systemtcl -d sat /dev/sdx`
