@@ -16,9 +16,9 @@ Snippets about Proxmox.
 
 ## Media
 ### lxc bind mount:
-Create directory in host, best if in /mnt/bindmounts, and then
+Create directory in host and then
 
-`pct set {lxc num} -mp0 /mnt/bindmounts/{hostdir},mp=/{lxcdir}`
+`pct set {lxc num} -mp{N} /mnt/.../{hostdir},mp=/mnt/{lxcdir}`
 
 #### if you want to be unsafe:
 edit permissions to 777!
