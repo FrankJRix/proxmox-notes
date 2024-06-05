@@ -33,10 +33,17 @@ TBA
 ### usb drive smart status:
 
 `man smartd`\
-`man smartd.conf`\
+`man smartd.conf`
 
 `systemtcl -d sat /dev/sdx`
 
 ### usb quirks:
 if a drive isn't recognized in the disk section, get the problem disk id with
 `lsusb`
+
+id = xxxx:xxxx
+
+`echo options usb-storage quirks=xxxx:xxxx:u | tee /etc/modprobe.d/blacklist_uas.conf`\
+`update-initramfs -u`
+
+and then you reboot.
