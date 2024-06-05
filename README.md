@@ -11,7 +11,7 @@ Snippets about Proxmox.
 
 ## Administration
 ### update system:
-`apt update`
+`apt update`\
 `apt dist-upgrade`
 
 ## Media
@@ -32,7 +32,11 @@ TBA
 ## Hardware
 ### usb drive smart status:
 
-`man smartd`
-`man smartd.conf`
+`man smartd`\
+`man smartd.conf`\
 
 `systemtcl -d sat /dev/sdx`
+
+### usb quirks:
+if a drive isn't recognized in the disk section, get the problem disk id with
+`lsusb`
